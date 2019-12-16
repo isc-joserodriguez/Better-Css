@@ -1,0 +1,23 @@
+{
+  "name": "better-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch css -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanrodriguezhe/Better-Css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joanrodriguezhe/Better-Css/issues"
+  },
+  "homepage": "https://github.com/joanrodriguezhe/Better-Css#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
