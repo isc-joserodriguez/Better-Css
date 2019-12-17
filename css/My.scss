@@ -2,8 +2,13 @@
 @import "colors";
 @import "mixins";
 
-$mainColor: Black;
 $baseFontSize: 14px;
+
+$app-size: 1024px;
+
+@function center-width($gutter) {
+  @return $app-size - ($gutter * 2);
+}
 
 /* Basics */
 html {
@@ -26,7 +31,7 @@ h3 {
 /* Layout */
 #container {
   margin-top: 5px;
-  width: 800px;
+  width: center-width(100px);
   margin-left: auto;
   margin-right: auto;
   background: #fff;
