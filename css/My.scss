@@ -4,7 +4,7 @@
 
 $baseFontSize: 14px;
 
-$app-size: 1024px;
+$app-size: 900px;
 
 @function center-width($gutter) {
   @return $app-size - ($gutter * 2);
@@ -26,6 +26,12 @@ h2 {
 }
 h3 {
   font-size: $baseFontSize + 2;
+}
+
+@for $colNumber from 2 through 5 {
+  .col-#{$colNumber} {
+    width: ($app-size/$colNumber)-10px;
+  }
 }
 
 /* Layout */
